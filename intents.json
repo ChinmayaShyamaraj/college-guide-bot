@@ -1,0 +1,137 @@
+{
+    "intents": [
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "what should I call you", "who are you"],
+            "responses": ["My name is Chatbot. How can I assist you?", "You can call me Chatbot.", "I am Chatbot, at your service."]
+        },
+        {
+            "tag": "college_info",
+            "patterns": ["what is the address of the college", "what are the courses offered", "what is the website of the college"],
+            "responses": ["The address of the college is nitte. The college has more than 10 branches of engineering. The website of the college is www.nitte.edu."]
+        },
+        {
+            "tag": "library",
+            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?"],
+            "responses": ["The library is located on the first floor of the main building. You can spot the main building by either finding SAC, which is a colourful building outside the rear entrance of the main building, or you can also find the front eantrance near the flagpole"]
+        },
+        
+        {
+            "tag": "admissions",
+            "patterns": ["what are the admission requirements", "how can I apply to the college", "what is the deadline to apply"],
+            "responses": ["The admission requirements vary depending on the program. You can apply to the college online at www.college.edu/admissions. The deadline to apply is January 1st."]
+        },
+        {
+            "tag": "missing_exam",
+            "patterns": ["what should I do if I missed an exam", "what is the policy for missed exams", "how can I make up a missed exam"],
+            "responses": ["If you missed an exam, you should contact your professor as soon as possible to see if you can make it up. The policy for missed exams varies depending on the professor and the program."]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "Hi there",
+            "Greetings",
+            "Good morning",
+            "Good afternoon",
+            "Good evening"
+            ],
+            "responses": [
+            "Hello! How can I help you?",
+            "Hi there! How can I assist you today?",
+            "Greetings! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+            "Bye",
+            "Goodbye",
+            "See you later",
+            "See you soon",
+            "Take care",
+            "Farewell"
+            ],
+            "responses": [
+            "Goodbye! Have a nice day.",
+            "See you later! Take care.",
+            "Farewell! Come back soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+            "Thanks",
+            "Thank you",
+            "Appreciate it",
+            "Grateful"
+            ],
+            "responses": [
+            "You're welcome!",
+            "No problem, happy to help.",
+            "Glad I could be of assistance."
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+            "Can you help me?",
+            "What can you do for me?",
+            "I need assistance",
+            "Can you assist me?",
+            "Help please"
+            ],
+            "responses": [
+            "Of course! What do you need help with?",
+            "Sure, what do you need assistance with?",
+            "I'm here to help. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "office_location",
+            "patterns": [
+            "Where can I find the Principal's office?",
+            "Where is the Principal's office?",
+            "Where is the Administration block located?",
+            "I need to visit the Dean's office, where is it?",
+            "Can you tell me the location of the Vice Chancellor's office?"
+            ],
+            "responses": [
+            "The Principal's office is located in the Administration block, on the first floor.",
+            "The Administration block is located near the main entrance. You can find the Principal's office on the first floor.",
+            "The Dean's office is located in the Academic block, on the second floor.",
+            "The Vice Chancellor's office is located in the Administration block, on the second floor."
+            ]
+        },
+        {
+            "tag": "classroom_location",
+            "patterns": [
+            "How do I find the classroom LC01?",
+            "Where is the lecture hall LH501 located?",
+            "Can you tell me the location of the classroom LC31?",
+            "I have a class in room LH311, where is it located?"
+            ],
+            "responses": [
+            "Classroom LC01 is located in the East wing, on the ground floor.",
+            "Lecture hall LH501 is located in the APJ block, 5th floor.",
+            "Classroom LC31 is located in the Ramanujan Block, on the third floor.",
+            "LH311 is located in the Admin block, on the third floor."
+            ]
+        },
+        {
+            "tag": "buspass",
+            "patterns": [
+            "How can I get myself a college bus pass?",
+            "What is the procedure to obtain a bus pass?",
+            "Can you guide me on how to apply for a bus pass?",
+            "I need a bus pass, how can I get one?"
+            ],
+            "responses": [
+            "You can obtain a bus pass from the college transport office, by talking to the transport officer. You will need to take a passport size photo with you."
+            ]
+        }
+    ]
+}
+    
