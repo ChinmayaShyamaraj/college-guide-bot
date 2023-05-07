@@ -51,5 +51,8 @@ query=""
 print("Hello! I am your campus assistance bot. Ask me anything!\n")
 while True:
     query=input(">")
+    if query=='bye':
+        print(chatbot_response(query))
+        break
     response=chatbot_response(query)
     print(response)
