@@ -192,15 +192,19 @@
             ]
         },
         {
-            "tag":"food",
+            "tag":"canteen",
             "patterns":[
                 "Where is the canteen?",
                 "How do I get to the canteen?",
-                "Where can I have my lunch?"
+                "Where can I have my lunch?",
+                "I am hungry. Where do I go?",
+                "food",
+                "hungry",
+                "eat"
             ],
             "responses":[
-                "The canteen is behind the civil block.",
-                "The canteen is near the NC block."
+                "The canteen is behind the new civil block.",
+                "There is a canteen near the NC block."
             ]
         }
     ]
