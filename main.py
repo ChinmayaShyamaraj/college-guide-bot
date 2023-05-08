@@ -8,12 +8,12 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load the intents JSON file
 with open('intents.json') as file:
     data = json.load(file)
-
+print("reached here")
 # Preprocess the data
 lemmatizer = WordNetLemmatizer()
-nltk.download('punkt')
-nltk.download('wordnet')
-
+#nltk.download('punkt')
+#nltk.download('wordnet')
+print("after download")
 corpus = []
 tags = []
 for intent in data['intents']:
