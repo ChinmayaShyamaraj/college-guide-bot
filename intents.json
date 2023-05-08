@@ -1,37 +1,12 @@
 {
     "intents": [
         {
-            "tag": "name",
-            "patterns": ["what is your name", "what should I call you", "who are you"],
-            "responses": ["My name is Chatbot. How can I assist you?", "You can call me Chatbot.", "I am Chatbot, at your service."]
-        },
-        {
-            "tag": "college_info",
-            "patterns": ["what is the address of the college", "what are the courses offered", "what is the website of the college"],
-            "responses": ["The address of the college is nitte. The college has more than 10 branches of engineering. The website of the college is www.nitte.edu."]
-        },
-        {
-            "tag": "library",
-            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?","how do i get to the library", "library","books" ,"silence"],
-            "responses": ["The library is located on the first floor of the main building. You can spot the main building by either finding SAC, which is a colourful building outside the rear entrance of the main building, or you can also find the front eantrance near the flagpole"]
-        },
-        
-        {
-            "tag": "admissions",
-            "patterns": ["what are the admission requirements", "how can I apply to the college", "what is the deadline to apply"],
-            "responses": ["The admission requirements vary depending on the program. You can apply to the college online at www.college.edu/admissions. The deadline to apply is January 1st."]
-        },
-        {
-            "tag": "missing_exam",
-            "patterns": ["what should I do if I missed an exam", "what is the policy for missed exams", "how can I make up a missed exam", "missing exam", "missed exam", "absent exam"],
-            "responses": ["If you missed an exam, you should contact your professor as soon as possible to see if you can make it up. The policy for missed exams varies depending on the professor and the program."]
-        },
-        {
             "tag": "greeting",
             "patterns": [
             "Hi",
             "Hello",
             "Hey",
+            "What's up",
             "Hi there",
             "Greetings",
             "Good morning",
@@ -89,6 +64,33 @@
             "I'm here to help. What can I do for you?"
             ]
         },
+        {
+            "tag": "name",
+            "patterns": ["what is your name", "what should I call you", "who are you"],
+            "responses": ["My name is Chatbot. How can I assist you?", "You can call me Chatbot.", "I am Chatbot, at your service."]
+        },
+        {
+            "tag": "college_info",
+            "patterns": ["what is the address of the college", "what are the courses offered", "what is the website of the college"],
+            "responses": ["The address of the college is nitte. The college has more than 10 branches of engineering. The website of the college is www.nitte.edu."]
+        },
+        {
+            "tag": "library",
+            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?","how do i get to the library", "library","books" ,"silence"],
+            "responses": ["The library is located on the first floor of the main building. You can spot the main building by either finding SAC, which is a colourful building outside the rear entrance of the main building, or you can also find the front eantrance near the flagpole"]
+        },
+        
+        {
+            "tag": "admissions",
+            "patterns": ["what are the admission requirements", "how can I apply to the college", "what is the deadline to apply"],
+            "responses": ["The admission requirements vary depending on the program. You can apply to the college online at www.college.edu/admissions. The deadline to apply is January 1st."]
+        },
+        {
+            "tag": "missing_exam",
+            "patterns": ["what should I do if I missed an exam", "what is the policy for missed exams", "how can I make up a missed exam", "missing exam", "missed exam", "absent exam"],
+            "responses": ["If you missed an exam, you should contact your professor as soon as possible to see if you can make it up. Usually, You need to write a letter to the HoD, who may allow you to write a make up exam."]
+        },
+        
         {
             "tag": "principal_office",
             "patterns": [
@@ -192,15 +194,20 @@
             ]
         },
         {
-            "tag":"food",
+            "tag":"canteen",
             "patterns":[
                 "Where is the canteen?",
                 "How do I get to the canteen?",
-                "Where can I have my lunch?"
+                "Where can I have my lunch?",
+                "I am hungry, where do i go?",
+                "food",
+                "hungry",
+                "eat"
             ],
             "responses":[
                 "The canteen is behind the civil block.",
-                "The canteen is near the NC block."
+                "The canteen is near the NC block.",
+                "You can go to the canteen to eat"
             ]
         }
     ]
