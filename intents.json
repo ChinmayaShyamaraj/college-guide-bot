@@ -12,7 +12,7 @@
         },
         {
             "tag": "library",
-            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?"],
+            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?","how do i get to the library", "library","books" ,"silence"],
             "responses": ["The library is located on the first floor of the main building. You can spot the main building by either finding SAC, which is a colourful building outside the rear entrance of the main building, or you can also find the front eantrance near the flagpole"]
         },
         
@@ -23,7 +23,7 @@
         },
         {
             "tag": "missing_exam",
-            "patterns": ["what should I do if I missed an exam", "what is the policy for missed exams", "how can I make up a missed exam"],
+            "patterns": ["what should I do if I missed an exam", "what is the policy for missed exams", "how can I make up a missed exam", "missing exam", "missed exam", "absent exam"],
             "responses": ["If you missed an exam, you should contact your professor as soon as possible to see if you can make it up. The policy for missed exams varies depending on the professor and the program."]
         },
         {
@@ -90,37 +90,96 @@
             ]
         },
         {
-            "tag": "office_location",
+            "tag": "principal_office",
             "patterns": [
             "Where can I find the Principal's office?",
             "Where is the Principal's office?",
             "Where is the Administration block located?",
-            "I need to visit the Dean's office, where is it?",
-            "Can you tell me the location of the Vice Chancellor's office?"
+            "Can you tell me the location of the principal's office?"
             ],
             "responses": [
             "The Principal's office is located in the Administration block, on the first floor.",
-            "The Administration block is located near the main entrance. You can find the Principal's office on the first floor.",
-            "The Dean's office is located in the Academic block, on the second floor.",
+            "The Administration block is located near the main entrance. You can find the Principal's office on the first floor."
+            ]
+        },
+        {
+            "tag": "vice_chancellor_office",
+            "patterns": [
+            "Vice Chancellor",
+            "Where can I find the Vice Chancellor's office?",
+            "Where is the Vice Chancellor's office?",
+            "I need to visit the Vice Chancellor's office, where is it?",
+            "Can you tell me the location of the Vice Chancellor's office?"
+            ],
+            "responses": [
             "The Vice Chancellor's office is located in the Administration block, on the second floor."
             ]
         },
         {
-            "tag": "classroom_location",
+            "tag": "lc_block",
             "patterns": [
             "How do I find the classroom LC01?",
-            "Where is the lecture hall LH501 located?",
+            "Where is the lecture hall LC21 located?",
             "Can you tell me the location of the classroom LC31?",
-            "I have a class in room LH311, where is it located?"
+            "I have a class in room LC11, where is it located?"
             ],
             "responses": [
             "Classroom LC01 is located in the East wing, on the ground floor.",
-            "Lecture hall LH501 is located in the APJ block, 5th floor.",
+            "Lecture hall LC21 is located in the Ramanujan Block on second floor",
             "Classroom LC31 is located in the Ramanujan Block, on the third floor.",
-            "LH311 is located in the Admin block, on the third floor."
+            "LC11 is located in the ramanujan block, on the first floor."
             ]
         },
         {
+            "tag": "lh_block",
+            "patterns": [
+            "How do I find the classroom LH001?",
+            "Where is the lecture hall LH201?",
+            "Can you tell me the location of the classroom LH301?"
+        ],
+        "responses": [
+            "Classroom LH001 is located in the East wing, on the ground floor.",
+            "Lecture hall LH201 is located in the Main Block on second floor",
+            "Classroom LH301 is located in the Main Block, on the third floor.",
+            "LH501 is located in the main block, on the fifth floor."
+        ]
+    },
+    {
+        "tag":"cs_labs",
+        "patterns":[
+                "Where do I find CS labs?",
+                "Where is CS lab?",
+                "in which block is CS lab?",
+                "CSL01",
+                "CSL02",
+                "CSL03",
+                "CSL04",
+                "CS Labs"
+            ],
+        "responses":[
+            "The CS labs can be found in the fourth floor of APJ Block.",
+            "All the IS department labs can be found on the fourth floor of APJ block."
+        ]
+    },
+    {
+        "tag":"is_lab",
+        "patterns":[
+            "Where do I find IS labs?",
+            "Where is IS lab?",
+            "in which block is IS lab?",
+            "Where do I find IS Lab?",
+            "ISL02",
+            "ISL01",
+            "ISL03",
+            "IS Labs"
+
+        ],
+        "responses":[
+            "The IS labs can be found on the fourth floor",
+            "All the IS department labs can be found on the fourth floor of APJ block."
+        ]
+    },
+    {
             "tag": "buspass",
             "patterns": [
             "How can I get myself a college bus pass?",
@@ -130,6 +189,18 @@
             ],
             "responses": [
             "You can obtain a bus pass from the college transport office, by talking to the transport officer. You will need to take a passport size photo with you."
+            ]
+        },
+        {
+            "tag":"food",
+            "patterns":[
+                "Where is the canteen?",
+                "How do I get to the canteen?",
+                "Where can I have my lunch?"
+            ],
+            "responses":[
+                "The canteen is behind the civil block.",
+                "The canteen is near the NC block."
             ]
         }
     ]
