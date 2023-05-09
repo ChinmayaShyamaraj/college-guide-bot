@@ -67,7 +67,7 @@
         {
             "tag": "name",
             "patterns": ["what is your name", "what should I call you", "who are you"],
-            "responses": ["My name is Chatbot. How can I assist you?", "You can call me Chatbot.", "I am Chatbot, at your service."]
+            "responses": ["My name is guideBot. How can I assist you?", "You can call me guideBot.", "I am guideBot, at your service."]
         },
         {
             "tag": "college_info",
@@ -76,7 +76,7 @@
         },
         {
             "tag": "library",
-            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?","how do i get to the library", "library","books" ,"silence"],
+            "patterns": ["where is the library", "what is the location of the library", "where can I find the library?","Where can i go to study?", "library","books" ,"silence"],
             "responses": ["The library is located on the first floor of the main building. You can spot the main building by either finding SAC, which is a colourful building outside the rear entrance of the main building, or you can also find the front eantrance near the flagpole"]
         },
         
@@ -122,6 +122,7 @@
             "patterns": [
             "How do I find the classroom LC01?",
             "Where is the lecture hall LC21 located?",
+            "Where is LC11?",
             "Can you tell me the location of the classroom LC31?",
             "I have a class in room LC11, where is it located?"
             ],
@@ -137,6 +138,8 @@
             "patterns": [
             "How do I find the classroom LH001?",
             "Where is the lecture hall LH201?",
+            "Where is LH001?",
+            "Where is classroom LH311?",
             "Can you tell me the location of the classroom LH301?"
         ],
         "responses": [
@@ -152,6 +155,7 @@
                 "Where do I find CS labs?",
                 "Where is CS lab?",
                 "in which block is CS lab?",
+                "Where is CSL01",
                 "CSL01",
                 "CSL02",
                 "CSL03",
